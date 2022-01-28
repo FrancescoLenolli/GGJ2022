@@ -9,6 +9,8 @@ public class UIView_Main : UIView
     [SerializeField] private TextMeshProUGUI labelQuery = null;
     [SerializeField] private GameObject buttonChoicePrefab = null;
     [SerializeField] private Transform buttonsContainer = null;
+    [SerializeField] private GameObject collectiblePrefab = null;
+    [SerializeField] private Transform collectiblesContainer = null;
     [SerializeField] private BackgroundGradient backgroundGradient = null;
 
     public void SetUp(object value)
@@ -17,10 +19,14 @@ public class UIView_Main : UIView
         {
             Destroy(child.gameObject);
         }
-
         Choice newChoice = (Choice)value;
 
         labelQuery.text = newChoice.choiceQuery;
+        if(newChoice.collectibleSprite)
+        {
+            Image collectibleImage = Instantiate(collectiblePrefab, collectiblesContainer).GetComponent<Image>();
+            collectibleImage.sprite = newChoice.collectibleSprite;
+        }
 
         for(int i = 0; i < newChoice.sections.Count; ++i)
         {
@@ -47,8 +53,12 @@ public class UIView_Main : UIView
         backgroundGradient.ChangeGradient(gradientChangeValue);
     }
 
-    public void ResetBackgroundGradient(object value)
+    public void ResetView(object value)
     {
         backgroundGradient.ResetGradient();
+        foreach(Transform child in collectiblesContainer)
+        {
+            Destroy(child.gameObject);
+        }
     }
 }

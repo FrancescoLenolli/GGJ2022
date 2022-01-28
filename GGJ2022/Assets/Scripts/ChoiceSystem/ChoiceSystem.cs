@@ -11,7 +11,6 @@ public class ChoiceSystem : MonoBehaviour
     [SerializeField] private Choice badEnding = null;
     [Tooltip("How many good and bad tokens does the player have at the start of the game?")]
     [SerializeField] private int startingTokenCount = 3;
-    [SerializeField] private int maxTokenCount = 5;
 
     private int goodTokenCount;
     private int badTokenCount;
@@ -22,7 +21,7 @@ public class ChoiceSystem : MonoBehaviour
     {
         goodTokenCount = startingTokenCount;
         badTokenCount = startingTokenCount;
-        singleTokenValue = 1f / (maxTokenCount * 2);
+        singleTokenValue = 1f / (startingTokenCount * 2);
         currentChoice = startingChoice;
 
         EventManager.StartListening("UpdateTokens", UpdateTokensCount);
@@ -67,13 +66,13 @@ public class ChoiceSystem : MonoBehaviour
                 badTokenCount--;
                 gradientChangeValue = -singleTokenValue;
                 break;
-            default:
+            case Choice.ChoiceType.Neutral:
                 break;
         }
 
         EventManager.TriggerEvent("UpdateBackgroundGradient", gradientChangeValue);
-        goodTokenCount = Mathf.Clamp(goodTokenCount, 0, maxTokenCount);
-        badTokenCount = Mathf.Clamp(badTokenCount, 0, maxTokenCount);
+        goodTokenCount = Mathf.Clamp(goodTokenCount, 0, startingTokenCount);
+        badTokenCount = Mathf.Clamp(badTokenCount, 0, startingTokenCount);
     }
 
     private void PlayChoice()
@@ -81,7 +80,11 @@ public class ChoiceSystem : MonoBehaviour
         EventManager.TriggerEvent("ChangeChoice", currentChoice);
 
         if (currentChoice == startingChoice)
-            EventManager.TriggerEvent("ResetBackground", 0);
+        {
+            EventManager.TriggerEvent("ResetView", 0);
+            goodTokenCount = startingTokenCount;
+            badTokenCount = startingTokenCount;
+        }
     }
 
     private IEnumerator DelayedStartRoutine()

@@ -14,6 +14,6 @@ public class UIState_Main : UIState
 
         EventManager.StartListening("ChangeChoice", view.SetUp);
         EventManager.StartListening("UpdateBackgroundGradient", view.UpdateBackgroundGradient);
-        EventManager.StartListening("ResetBackground", view.ResetBackgroundGradient);
+        EventManager.StartListening("ResetView", view.ResetView);
     }
 }

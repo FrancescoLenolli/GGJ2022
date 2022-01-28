@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
   m_Name: Stay
   m_EditorClassIdentifier: 
+  finalChoice: 0
   choiceQuery: You sure?
+  collectibleSprite: {fileID: 0}
   sections:
-  - status: 0
+  - status: 1
     text: No.
     nextChoice: {fileID: 11400000, guid: 654d18885d504fb4c8c6000ddf7e71f7, type: 2}
-  - status: 1
+  - status: 2
     text: Yes.
     nextChoice: {fileID: 11400000, guid: 5e693d4e613580e43be176b17f141aaf, type: 2}
