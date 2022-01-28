@@ -11,5 +11,7 @@ namespace UIFramework.StateMachine
         //private UIView uiView;
 
         //public UIView UiView => uiView;
+
+        public UIView_Main mainView = null;
     }
 }
