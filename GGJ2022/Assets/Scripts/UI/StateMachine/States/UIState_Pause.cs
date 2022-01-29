@@ -15,6 +15,8 @@ public class UIState_Pause : UIState
         view.OnResume += ResumeGame;
         view.OnBackToMain += BackToMainMenu;
         view.OnRestart += RestartGame;
+
+        EventManager.StartListening("CutsceneEnded", BackToMainMenu);
     }
 
     public override void ShowState()
@@ -35,6 +37,12 @@ public class UIState_Pause : UIState
     }
 
     private void BackToMainMenu()
+    {
+        owner.ChangeState(typeof(UIState_Splashpage));
+        EventManager.TriggerEvent("RestartGame", null);
+    }
+
+    private void BackToMainMenu(object value)
     {
         owner.ChangeState(typeof(UIState_Splashpage));
         EventManager.TriggerEvent("RestartGame", null);

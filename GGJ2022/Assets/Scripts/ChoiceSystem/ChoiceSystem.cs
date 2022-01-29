@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ChoiceSystem : MonoBehaviour
@@ -59,7 +58,7 @@ public class ChoiceSystem : MonoBehaviour
         Choice.ChoiceType choiceType = (Choice.ChoiceType)value;
         float gradientChangeValue = 0f;
 
-        switch(choiceType)
+        switch (choiceType)
         {
             case Choice.ChoiceType.Good:
                 goodTokenCount--;
@@ -87,12 +86,12 @@ public class ChoiceSystem : MonoBehaviour
             ResetGame();
             return;
         }
-        if(currentChoice == goodEnding || currentChoice == badEnding)
+        if (currentChoice == goodEnding || currentChoice == badEnding)
         {
             FadeReset();
             return;
         }
-        if(currentChoice.finalChoice)
+        if (currentChoice.finalChoice)
         {
             EventManager.TriggerEvent("FinalChoice", null);
         }
