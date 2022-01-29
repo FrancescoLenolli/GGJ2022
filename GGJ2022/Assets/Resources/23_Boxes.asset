@@ -20,7 +20,7 @@ MonoBehaviour:
     text: Hesitate
     nextChoice: {fileID: 11400000}
   - status: 2
-    text: Run
+    text: Run away
     nextChoice: {fileID: 11400000}
   - status: 0
     text: Breathe

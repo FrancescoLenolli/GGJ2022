@@ -17,8 +17,8 @@ MonoBehaviour:
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Teddy Beat
+    text: Teddy Beat.
     nextChoice: {fileID: 11400000, guid: 3a6c5e29aeea1a14daac122b188d33f1, type: 2}
   - status: 2
-    text: Guitar
+    text: Guitar.
     nextChoice: {fileID: 11400000, guid: 4078114a56d98034e9774686f7a3d56e, type: 2}

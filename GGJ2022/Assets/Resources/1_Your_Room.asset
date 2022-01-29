@@ -22,4 +22,4 @@ MonoBehaviour:
     nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
   - status: 1
     text: "Maybe you shouldn\u2019t. "
-    nextChoice: {fileID: 11400000, guid: 11953c7d9c117af4a8db1a614e4e55a4, type: 2}
+    nextChoice: {fileID: 11400000}

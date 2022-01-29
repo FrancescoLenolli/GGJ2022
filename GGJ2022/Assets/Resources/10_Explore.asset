@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 10_Explore
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Explore
+  choiceQuery: You close the door behind you quietly. That poor door does not need
+    anymore slamming, it already endured a lot of it during your teen years. You
+    take a look around.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: Bed
+    text: Go to your bed.
     nextChoice: {fileID: 11400000, guid: 57000b410270c8445aa4200ca42cde5b, type: 2}
   - status: 0
-    text: Wardrobe
+    text: Go to your wardrobe.
     nextChoice: {fileID: 11400000, guid: 834bc38e90fa4624bb2944002b48fe64, type: 2}

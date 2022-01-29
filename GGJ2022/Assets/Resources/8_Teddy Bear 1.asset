@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: 5_Wardrobe
+  m_Name: 8_Teddy Bear 1
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Clothes are an essential. You decide to start from there. You open
-    the wardrobe and the mirror on the inside sends a sharp reflection across the
-    room.
+  choiceQuery: "It\u2019s Theodore, your beloved teddy bear. An eye is missing, several
+    seams are torn, but it\u2019s him."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Start gathering clothes.
-    nextChoice: {fileID: 11400000, guid: 654d18885d504fb4c8c6000ddf7e71f7, type: 2}
+    text: "You don\u2019t need him anymore."
+    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
   - status: 1
-    text: Look in the mirror.
-    nextChoice: {fileID: 11400000, guid: 5e693d4e613580e43be176b17f141aaf, type: 2}
+    text: Hug the hell out of him.
+    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}

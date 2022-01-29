@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 14_All
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Photo Album
+  choiceQuery: You decide to gather everything you have. The less you come back,
+    the better. You are just done taking all the clothes out, when you notice a photo
+    album that was hidden behind some t-shirts.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Ignore
+    text: Ignore it.
     nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
   - status: 1
-    text: Take photo album
+    text: "Open it. \r"
     nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}

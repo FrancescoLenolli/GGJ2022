@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: 1a_Your_Room 1
+  m_Name: 13a_Take clothes
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You stand right beside the door of your room. So close to it that
-    you feel your breath condensing on the wood.
+  choiceQuery: You smile at your reflection. It seems forced, but you feel a little
+    better. At least your smile is cute. You focus on which clothes to take with
+    you.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Get inside, you coward.
-    nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
+    text: 'Gather all your clothes. '
+    nextChoice: {fileID: 11400000, guid: 3ae260e2d61c82e40bb336c01e8e859c, type: 2}
   - status: 1
-    text: "Maybe you shouldn\u2019t. "
-    nextChoice: {fileID: 11400000}
+    text: Gather some of your clothes.
+    nextChoice: {fileID: 11400000, guid: d4a21e91ce168c648a75cd02d648600c, type: 2}

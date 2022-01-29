@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 16_Desk
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Desk
+  choiceQuery: Your desk is in the same confusion you left it in. You mom must have
+    thought that it was better that way.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Old Agendas
+    text: Look at old agendas.
     nextChoice: {fileID: 11400000, guid: a75e6f4be00e98346a0a6cae9544f730, type: 2}
   - status: 1
-    text: Child Drawings
+    text: Look at child drawings.
     nextChoice: {fileID: 11400000, guid: 0f01267b36c8ad145ba974d3cb10fdf3, type: 2}

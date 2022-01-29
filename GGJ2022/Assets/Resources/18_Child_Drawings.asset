@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 18_Child_Drawings
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Child Drawings
+  choiceQuery: Under all the garbage piled on your desk, a couple of old drawings
+    are sticking out. You must have been 8 year old or so. You did not care how bad
+    you were at drawing at that time.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Keep
+    text: Keep the drawings.
     nextChoice: {fileID: 11400000, guid: c1f7635cdc19b164980f8b0dd9738c88, type: 2}
   - status: 2
-    text: Reap
+    text: 'Rip the drawings. '
     nextChoice: {fileID: 11400000, guid: 70c3106378094ea46959525e3687d228, type: 2}

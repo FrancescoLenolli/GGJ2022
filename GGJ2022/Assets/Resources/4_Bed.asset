@@ -19,8 +19,8 @@ MonoBehaviour:
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Sit on the bed
+    text: Sit on the bed.
     nextChoice: {fileID: 11400000, guid: ac9e7e1aedca71a4593865e54663feb7, type: 2}
   - status: 2
-    text: Undo your bed
+    text: Undo your bed.
     nextChoice: {fileID: 11400000, guid: 36534852fd947534c9c53e7b6567b573, type: 2}
