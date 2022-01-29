@@ -14,6 +14,8 @@ public class ChoiceSystem : MonoBehaviour
 
     private int goodTokenCount;
     private int badTokenCount;
+    // How many choices are made during a game.
+    private int choiceCounter;
     private float singleTokenValue;
     private Choice currentChoice;
 
@@ -84,7 +86,11 @@ public class ChoiceSystem : MonoBehaviour
             EventManager.TriggerEvent("ResetView", 0);
             goodTokenCount = startingTokenCount;
             badTokenCount = startingTokenCount;
+            choiceCounter = 0;
+            return;
         }
+
+        choiceCounter++;
     }
 
     private IEnumerator DelayedStartRoutine()
