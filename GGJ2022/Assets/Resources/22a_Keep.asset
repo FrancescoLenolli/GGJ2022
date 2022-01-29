@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
+  m_Name: 22a_Keep
+  m_EditorClassIdentifier: 
+  finalChoice: 0
+  choiceQuery: "You remember that report. You tried to hide it from your mother because
+    the grades were really bad. But when mom found out, she did not get mad. Instead
+    she sat with me and we talked about how to fix my grades. To think that now that
+    I\u2019m adult I might not get that kind of support anymore..."
+  collectibleSprite: {fileID: 0}
+  sections:
+  - status: 0
+    text: "I\u2019m scared."
+    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
