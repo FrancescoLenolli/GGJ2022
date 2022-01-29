@@ -621,6 +621,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 963194229}
   videoRenderer: {fileID: 117249645}
+  goodEnding: {fileID: 32900000, guid: 78e4f76179f52b04592b7ac6c44ce77a, type: 3}
+  badEnding: {fileID: 32900000, guid: 78e4f76179f52b04592b7ac6c44ce77a, type: 3}
+  trueEnding: {fileID: 32900000, guid: 78e4f76179f52b04592b7ac6c44ce77a, type: 3}
 --- !u!1 &1025406326
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +974,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: fec57c43a0b265b4f8b1378879cb2d16,
         type: 3}
+    - target: {fileID: 964579681520230942, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579681520230942, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 964579681991913648, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
       propertyPath: m_AnchorMax.y

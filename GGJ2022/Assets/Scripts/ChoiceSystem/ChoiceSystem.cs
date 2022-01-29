@@ -86,14 +86,21 @@ public class ChoiceSystem : MonoBehaviour
             ResetGame();
             return;
         }
-        if (currentChoice == goodEnding || currentChoice == badEnding)
+        if (currentChoice == goodEnding /*|| currentChoice == badEnding*/)
         {
-            FadeReset();
+            //FadeReset();
+            EventManager.TriggerEvent("TriggerEnding", Choice.ChoiceType.Good);
+            return;
+        }
+        if(currentChoice == badEnding)
+        {
+            EventManager.TriggerEvent("TriggerEnding", Choice.ChoiceType.Bad);
             return;
         }
         if (currentChoice.finalChoice)
         {
-            EventManager.TriggerEvent("FinalChoice", null);
+            EventManager.TriggerEvent("TriggerEnding", Choice.ChoiceType.Neutral);
+            return;
         }
 
         choiceCounter++;
