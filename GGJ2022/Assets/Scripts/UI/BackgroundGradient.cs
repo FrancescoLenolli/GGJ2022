@@ -26,6 +26,7 @@ public class BackgroundGradient : MonoBehaviour
 
     public void ResetGradient()
     {
+        targetValue = startingValue;
         gradientValue = startingValue;
         image.color = gradient.Evaluate(gradientValue);
     }

@@ -17,6 +17,7 @@ public class UIState_Main : UIState
         EventManager.StartListening("ChangeChoice", view.SetUp);
         EventManager.StartListening("UpdateBackgroundGradient", view.UpdateBackgroundGradient);
         EventManager.StartListening("ResetView", view.ResetView);
+        EventManager.StartListening("Fade", view.Fade);
     }
 
     public override void ShowState()

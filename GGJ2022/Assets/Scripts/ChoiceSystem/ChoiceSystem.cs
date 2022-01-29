@@ -87,6 +87,15 @@ public class ChoiceSystem : MonoBehaviour
             ResetGame();
             return;
         }
+        if(currentChoice == goodEnding || currentChoice == badEnding)
+        {
+            FadeReset();
+            return;
+        }
+        if(currentChoice.finalChoice)
+        {
+            EventManager.TriggerEvent("FinalChoice", null);
+        }
 
         choiceCounter++;
     }
@@ -97,6 +106,11 @@ public class ChoiceSystem : MonoBehaviour
         goodTokenCount = startingTokenCount;
         badTokenCount = startingTokenCount;
         choiceCounter = 0;
+    }
+
+    private void FadeReset()
+    {
+        EventManager.TriggerEvent("Fade", 0);
     }
 
     private void RestartGame(object value)

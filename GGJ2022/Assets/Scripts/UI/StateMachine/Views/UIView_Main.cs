@@ -15,7 +15,9 @@ public class UIView_Main : UIView
     [SerializeField] private GameObject collectiblePrefab = null;
     [SerializeField] private Transform collectiblesContainer = null;
     [SerializeField] private BackgroundGradient backgroundGradient = null;
+    [SerializeField] private CanvasGroup endingBackground = null;
     [SerializeField] private float fadeTime = 1f;
+    [SerializeField] private float endingFadeTime = 2f;
 
     private CanvasGroup labelQueryGroup;
     private Action onPause;
@@ -52,6 +54,11 @@ public class UIView_Main : UIView
         {
             Destroy(child.gameObject);
         }
+    }
+
+    public void Fade(object value)
+    {
+        StartCoroutine(EndingFadeRoutine(endingFadeTime));
     }
 
     private void ResetChoice()
@@ -118,7 +125,6 @@ public class UIView_Main : UIView
                 canvasGroup.alpha = alphaValue;
             }
             labelQueryGroup.alpha = alphaValue;
-
             yield return null;
         }
 
@@ -128,7 +134,34 @@ public class UIView_Main : UIView
             canvasGroup.alpha = 1;
             canvasGroup.interactable = true;
         }
-
         yield return null;
+    }
+
+    private IEnumerator EndingFadeRoutine(float fadeTime)
+    {
+        endingBackground.blocksRaycasts = true;
+
+        float time = 0f;
+        float halfFadeTime = fadeTime / 2;
+        while (time <= halfFadeTime)
+        {
+            time += Time.deltaTime;
+            endingBackground.alpha = time / halfFadeTime;
+            yield return null;
+        }
+
+        endingBackground.alpha = 1f;
+        time = halfFadeTime;
+        EventManager.TriggerEvent("RestartGame", null);
+
+        while (time >= 0)
+        {
+            time -= Time.deltaTime;
+            endingBackground.alpha = time / halfFadeTime;
+            yield return null;
+        }
+
+        endingBackground.alpha = 0;
+        endingBackground.blocksRaycasts = false;
     }
 }
