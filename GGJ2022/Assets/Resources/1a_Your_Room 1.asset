@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: 8_Teddy Bear
+  m_Name: 1a_Your_Room 1
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "It\u2019s Theodore, your beloved teddy bear. An eye is missing, several
-    seams are torn, but it\u2019s him."
+  choiceQuery: You stand right beside the door of your room. So close to it that
+    you feel your breath condensing on the wood.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: "You don\u2019t need him anymore"
-    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
+    text: Get inside, you coward.
+    nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
   - status: 1
-    text: Hug the hell out of him.
-    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
+    text: "Maybe you shouldn\u2019t. "
+    nextChoice: {fileID: 11400000}

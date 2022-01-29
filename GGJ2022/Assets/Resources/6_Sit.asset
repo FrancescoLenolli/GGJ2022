@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 6_Sit
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Sit
+  choiceQuery: The bed sends a series of squeaks and creaks when you sit. You know
+    that sound very well. An object sitting on the bed grabs your attention.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Teddy Bear
+    text: The teddy bear.
     nextChoice: {fileID: 11400000, guid: 3a6c5e29aeea1a14daac122b188d33f1, type: 2}
   - status: 2
-    text: Guitar
+    text: 'The guitar. '
     nextChoice: {fileID: 11400000, guid: 4078114a56d98034e9774686f7a3d56e, type: 2}
