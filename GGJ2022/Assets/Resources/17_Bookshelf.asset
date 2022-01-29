@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
+  m_Name: 17_Bookshelf
+  m_EditorClassIdentifier: 
+  finalChoice: 0
+  choiceQuery: Bookshelf
+  collectibleSprite: {fileID: 0}
+  sections:
+  - status: 2
+    text: Sci-fi Novel
+    nextChoice: {fileID: 11400000, guid: 00947f9651b7b16428b95aa8b86d3e5b, type: 2}
+  - status: 1
+    text: Childen Book
+    nextChoice: {fileID: 11400000, guid: 65862c5eeaa709f46965fc8d050c9d2a, type: 2}

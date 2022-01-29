@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
+  m_Name: 1_Your_Room
+  m_EditorClassIdentifier: 
+  finalChoice: 0
+  choiceQuery: Your Room
+  collectibleSprite: {fileID: 0}
+  sections:
+  - status: 2
+    text: Enter
+    nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
+  - status: 1
+    text: Hesitate
+    nextChoice: {fileID: 11400000}

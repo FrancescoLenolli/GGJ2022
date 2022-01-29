@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
+  m_Name: 7_Undo
+  m_EditorClassIdentifier: 
+  finalChoice: 0
+  choiceQuery: Undo
+  collectibleSprite: {fileID: 0}
+  sections:
+  - status: 1
+    text: Teddy Beat
+    nextChoice: {fileID: 11400000, guid: 3a6c5e29aeea1a14daac122b188d33f1, type: 2}
+  - status: 2
+    text: Guitar
+    nextChoice: {fileID: 11400000, guid: 4078114a56d98034e9774686f7a3d56e, type: 2}

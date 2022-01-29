@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: Start
+  m_Name: 9_Guitar
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Move?
+  choiceQuery: Guitar
   collectibleSprite: {fileID: 0}
   sections:
-  - status: 2
-    text: No.
-    nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
   - status: 1
-    text: Yeah.
-    nextChoice: {fileID: 11400000, guid: 7d9d350efc67cf14ba94eb643975ced4, type: 2}
+    text: Play
+    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
+  - status: 2
+    text: Put aside
+    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
