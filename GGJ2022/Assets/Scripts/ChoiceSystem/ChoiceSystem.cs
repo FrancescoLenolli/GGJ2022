@@ -40,11 +40,13 @@ public class ChoiceSystem : MonoBehaviour
         if (goodTokenCount <= 0)
         {
             currentChoice = goodEnding;
+            PlayChoice();
             return;
         }
         if (badTokenCount <= 0)
         {
             currentChoice = badEnding;
+            PlayChoice();
             return;
         }
 
