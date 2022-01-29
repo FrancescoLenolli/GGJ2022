@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 27_Scratches
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Scratches
+  choiceQuery: The book cover is ripped in some places.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Remember
+    text: Remember.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
   - status: 2
-    text: Don't remember
+    text: Don't remember.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

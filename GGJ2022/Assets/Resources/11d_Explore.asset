@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: 11a_Explore
+  m_Name: 11d_Explore
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You\u2019re not even sure you remember the harmonies. And Pearl Jam
-    are better anyways. You prefer to leave it be, rather than having it collect
-    dust in your new home."
+  choiceQuery: Shirts are a pain to iron, but they make you look like an adult. Plus
+    you should buy some new t-shirts anyways. You pile your shirts in a corner and
+    close the wardrobe.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0

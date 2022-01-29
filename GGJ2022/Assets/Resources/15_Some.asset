@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 15_Some
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Some
+  choiceQuery: "You decide you don\u2019t need everything in your wardrobe yet. It
+    might also make a good excuse to scrounge a good meal every once in a while.
+    You just have to decide what to take first."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: T-shirts
-    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
+    text: T-shirts are always cool.
+    nextChoice: {fileID: 11400000, guid: 439a6bd80cc560142ae6bc2ee58088b2, type: 2}
   - status: 2
-    text: Shirts
-    nextChoice: {fileID: 11400000, guid: 3ae260e2d61c82e40bb336c01e8e859c, type: 2}
+    text: Shirts make you look professional.
+    nextChoice: {fileID: 11400000, guid: 2a5ea3f239c34e54799bc946dd76337e, type: 2}

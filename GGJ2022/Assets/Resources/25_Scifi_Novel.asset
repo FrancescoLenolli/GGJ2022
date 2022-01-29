@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 25_Scifi_Novel
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Sci-fi Novel
+  choiceQuery: "You take \u201CNeuromancer\u201D by William Gibson. It took you several
+    months to finish it, but it was worth every minute of reading. It\u2019s the
+    book that made you realize what you wanted to do in life."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Turn
+    text: Turn the cover.
     nextChoice: {fileID: 11400000, guid: b836a22064b2a36458115ff34e54ea62, type: 2}
   - status: 2
-    text: 'Browse
+    text: 'Browse the pages.
 
 '
     nextChoice: {fileID: 11400000, guid: 57f1f1357bf4b7a44aeccfa12d679067, type: 2}

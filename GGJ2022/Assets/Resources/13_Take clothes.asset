@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 13_Take clothes
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Take clothes
+  choiceQuery: You stand in front of the open wardrobe, scratching your head. What
+    will you be taking?
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: All
+    text: Gather all your clothes.
     nextChoice: {fileID: 11400000, guid: 3ae260e2d61c82e40bb336c01e8e859c, type: 2}
   - status: 1
-    text: Some
+    text: 'Gather some of your clothes. '
     nextChoice: {fileID: 11400000, guid: d4a21e91ce168c648a75cd02d648600c, type: 2}

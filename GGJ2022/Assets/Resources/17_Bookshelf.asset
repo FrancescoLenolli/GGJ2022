@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 17_Bookshelf
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Bookshelf
+  choiceQuery: "You walk up to your bookcase. All the books you\u2019ve ever owned
+    are on those shelves."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Sci-fi Novel
+    text: "\u201CNeuromancer\u201D\r\n"
     nextChoice: {fileID: 11400000, guid: 00947f9651b7b16428b95aa8b86d3e5b, type: 2}
   - status: 1
-    text: Childen Book
+    text: "\u201CCharlie and the Chocolate Factory\u201D"
     nextChoice: {fileID: 11400000, guid: 65862c5eeaa709f46965fc8d050c9d2a, type: 2}
