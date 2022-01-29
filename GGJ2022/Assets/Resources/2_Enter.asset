@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 2_Enter
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: The door
+  choiceQuery: Procrastination is the thief of time, as somebody once said. You get
+    inside.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Close
+    text: Close door
     nextChoice: {fileID: 11400000, guid: ee842d7d115e6cd43bcf4fbab7611b5d, type: 2}
   - status: 2
-    text: Slam
+    text: Slam door
     nextChoice: {fileID: 11400000, guid: c569e42fa13da23479f34b2d9df80261, type: 2}

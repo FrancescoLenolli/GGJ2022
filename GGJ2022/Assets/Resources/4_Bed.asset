@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: 4_Bed
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Bed
+  choiceQuery: "You think that maybe staring from the bed might be easier. Your mom
+    made the bed as if she did not grasp the fact that you\u2019re moving out just
+    yet."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Sit
+    text: Sit on the bed
     nextChoice: {fileID: 11400000, guid: ac9e7e1aedca71a4593865e54663feb7, type: 2}
   - status: 2
-    text: Undo
+    text: Undo your bed
     nextChoice: {fileID: 11400000, guid: 36534852fd947534c9c53e7b6567b573, type: 2}
