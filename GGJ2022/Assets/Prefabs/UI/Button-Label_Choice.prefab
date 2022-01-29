@@ -67,8 +67,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 2c49000607f48904487b48010588ecc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -90,12 +90,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.7000712, g: 0.8679245, b: 0.71761173, a: 1}
@@ -105,7 +105,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 1af6b70ad155e964ab7dd008345cc188,
+      type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -147,7 +148,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
-          m_CallState: 2
+          m_CallState: 0
   - eventID: 1
     callback:
       m_PersistentCalls:
@@ -162,7 +163,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
+          m_CallState: 0
 --- !u!1 &2012941983400845837
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012941983400845834}
   - component: {fileID: 7447339757471786034}
+  - component: {fileID: 5269529548202431769}
   m_Layer: 5
   m_Name: Button-Label_Choice
   m_TagString: Untagged
@@ -213,6 +215,23 @@ CanvasGroup:
   m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &5269529548202431769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012941983400845837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17043fc8bfe087c4c8ad11572fcd6b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodChoiceSprite: {fileID: 21300000, guid: 71042613de854434ba1d8dce34ce5013, type: 3}
+  badChoiceSprite: {fileID: 21300000, guid: ef1b961b4b11b8c478b7be1005e77327, type: 3}
+  neutralChoiceSprite: {fileID: 21300000, guid: 8eea4c09d0281a64d82e86f4d3d8e862,
+    type: 3}
+  button: {fileID: 511049394268077378}
 --- !u!1001 &999953787786553422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -299,12 +318,12 @@ PrefabInstance:
     - target: {fileID: 4789887187658649798, guid: a929c93db4e4a9841a87ea81ee1fd1d0,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -175.41718
       objectReference: {fileID: 0}
     - target: {fileID: 4789887187658649798, guid: a929c93db4e4a9841a87ea81ee1fd1d0,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -91.52199
       objectReference: {fileID: 0}
     - target: {fileID: 4789887187658649798, guid: a929c93db4e4a9841a87ea81ee1fd1d0,
         type: 3}
@@ -344,12 +363,12 @@ PrefabInstance:
     - target: {fileID: 4789887187658649798, guid: a929c93db4e4a9841a87ea81ee1fd1d0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4789887187658649798, guid: a929c93db4e4a9841a87ea81ee1fd1d0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5.7
       objectReference: {fileID: 0}
     - target: {fileID: 4789887187658649798, guid: a929c93db4e4a9841a87ea81ee1fd1d0,
         type: 3}

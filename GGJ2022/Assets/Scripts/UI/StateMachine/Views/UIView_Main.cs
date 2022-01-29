@@ -89,6 +89,7 @@ public class UIView_Main : UIView
         {
             int index = i;
             GameObject newButton = Instantiate(buttonChoicePrefab, buttonsContainer);
+            ChoiceButton choiceButton = newButton.GetComponent<ChoiceButton>();
             Button button = newButton.GetComponentInChildren<Button>();
             TextMeshProUGUI buttonLabel = newButton.GetComponentInChildren<TextMeshProUGUI>();
 
@@ -101,6 +102,7 @@ public class UIView_Main : UIView
 
             button.onClick.AddListener(unityAction);
             buttonLabel.text = newChoice.sections[i].text;
+            choiceButton.SetState(newChoice.sections[index].status);
         }
 
         StartCoroutine(ShowNewViewRoutine(fadeTime));
