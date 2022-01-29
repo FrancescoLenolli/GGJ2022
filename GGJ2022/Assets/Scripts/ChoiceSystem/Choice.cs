@@ -18,6 +18,7 @@ public class Choice : ScriptableObject
 
     [Tooltip("Check if this is the final choice.")]
     public bool finalChoice = false;
+    [TextArea]
     public string choiceQuery = "Query";
     [Tooltip("Leave empty if this Choice doesn't have a collectible.")]
     public Sprite collectibleSprite = null;
