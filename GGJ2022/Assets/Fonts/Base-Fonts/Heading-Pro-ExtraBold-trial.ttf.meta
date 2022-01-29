@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 36b976d6b81654941861563acc8a0b4c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Heading Pro Trial
+  fontNames:
+  - Heading Pro Trial
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3481387448339cf46b7c92891c4e356f, type: 3}
+  - {fileID: 12800000, guid: e4fedab58535766428b1eeeba08e5949, type: 3}
+  - {fileID: 12800000, guid: 03437297af912354697166ea96789868, type: 3}
+  - {fileID: 12800000, guid: e34253f895356cd4eb0ec0cd2ed59f01, type: 3}
+  - {fileID: 12800000, guid: 90eea38e09588d4468920264e1a2d51e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
