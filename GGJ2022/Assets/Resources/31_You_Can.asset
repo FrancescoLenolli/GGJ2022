@@ -17,5 +17,5 @@ MonoBehaviour:
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: I can do it
+    text: ...
     nextChoice: {fileID: 11400000, guid: a343f55607bc9854e9db335dfb426349, type: 2}

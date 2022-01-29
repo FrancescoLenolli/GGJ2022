@@ -19,7 +19,7 @@ MonoBehaviour:
   sections:
   - status: 2
     text: Don't remember.
-    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
+    nextChoice: {fileID: 11400000, guid: c8f85cf998f96ce4da6ca9fbae205eb0, type: 2}
   - status: 1
     text: Remember.
-    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
+    nextChoice: {fileID: 11400000, guid: 4ffb727364a05ba4c8cc7fe7b993a024, type: 2}

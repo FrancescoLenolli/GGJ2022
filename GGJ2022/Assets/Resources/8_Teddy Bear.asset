@@ -19,7 +19,7 @@ MonoBehaviour:
   sections:
   - status: 2
     text: "You don\u2019t need him anymore."
-    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
+    nextChoice: {fileID: 11400000, guid: d9f43aa4d25296b448b14338270cf85f, type: 2}
   - status: 1
     text: Hug the hell out of him.
     nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}

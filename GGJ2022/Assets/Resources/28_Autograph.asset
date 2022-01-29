@@ -20,7 +20,7 @@ MonoBehaviour:
   sections:
   - status: 1
     text: Keep the whole book.
-    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
+    nextChoice: {fileID: 11400000, guid: 290abef8232631e4fa470de2c5e07554, type: 2}
   - status: 2
     text: Rip the page.
-    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
+    nextChoice: {fileID: 11400000, guid: 9dc321c62c4498a4f92dde44cddb4bb6, type: 2}

@@ -17,9 +17,9 @@ MonoBehaviour:
     back.
   collectibleSprite: {fileID: 0}
   sections:
-  - status: 0
+  - status: 2
     text: Ignore it.
     nextChoice: {fileID: 11400000, guid: 46f1fd66b110ef947b3217e852860bf4, type: 2}
-  - status: 0
+  - status: 1
     text: Open it.
-    nextChoice: {fileID: 11400000, guid: a4fefd97fcba1314688d869d83bc79e7, type: 2}
+    nextChoice: {fileID: 11400000, guid: b72fe93ac40896942813d7deb2dcc9ff, type: 2}

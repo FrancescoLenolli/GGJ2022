@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: 32_Pack_Clothes
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You pack your clothes
+  choiceQuery: "Put one foot in front of the other. You are allowed to feel both
+    scared and excited, lost and thriving. That\u2019s just the duality of life."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: ...
-    nextChoice: {fileID: 11400000, guid: a4446cea8de4dec428faac6057246578, type: 2}
+    text: .
+    nextChoice: {fileID: 0}

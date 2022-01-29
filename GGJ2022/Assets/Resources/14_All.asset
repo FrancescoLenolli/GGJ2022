@@ -23,4 +23,4 @@ MonoBehaviour:
     nextChoice: {fileID: 11400000, guid: 46f1fd66b110ef947b3217e852860bf4, type: 2}
   - status: 1
     text: "Open it. \r"
-    nextChoice: {fileID: 11400000, guid: b6570068b1c6f2b418bfba145a17e578, type: 2}
+    nextChoice: {fileID: 11400000, guid: b72fe93ac40896942813d7deb2dcc9ff, type: 2}

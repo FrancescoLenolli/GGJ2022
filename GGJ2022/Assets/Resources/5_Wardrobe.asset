@@ -20,7 +20,7 @@ MonoBehaviour:
   sections:
   - status: 2
     text: Start gathering clothes.
-    nextChoice: {fileID: 11400000, guid: 654d18885d504fb4c8c6000ddf7e71f7, type: 2}
+    nextChoice: {fileID: 11400000, guid: 37102ef66c9b82e408af42f42ec05e46, type: 2}
   - status: 1
     text: Look in the mirror.
-    nextChoice: {fileID: 11400000, guid: 5e693d4e613580e43be176b17f141aaf, type: 2}
+    nextChoice: {fileID: 11400000, guid: 2a005c29823bad448b4cf75802059272, type: 2}
