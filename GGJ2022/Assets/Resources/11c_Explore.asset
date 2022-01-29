@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: 26_Report
+  m_Name: 11c_Explore
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "While browsing through the pages, a piece of paper falls to the floor.
-    When you pick it up, you realize it\u2019s an old school report."
+  choiceQuery: You still remember all of it and shred that harmony as loud as you
+    can, while yelling like your best Kurt Cobain.
   collectibleSprite: {fileID: 0}
   sections:
-  - status: 2
-    text: Don't remember.
-    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
-  - status: 1
-    text: Remember.
-    nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
+  - status: 0
+    text: Go to your desk.
+    nextChoice: {fileID: 11400000, guid: 61196ad5ab626fb46ba702ec55a1ffc8, type: 2}
+  - status: 0
+    text: Go to your bookshelf.
+    nextChoice: {fileID: 11400000, guid: a4fefd97fcba1314688d869d83bc79e7, type: 2}

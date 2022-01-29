@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 21_Take
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Take
+  choiceQuery: "You take the newest one from the stack, you open it on today\u2019s
+    page and you take up a pen..."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Sad Note
+    text: Today is the day I move out...
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
   - status: 2
-    text: Angry Note
+    text: I am moving out today!!! :)))
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

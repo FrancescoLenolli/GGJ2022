@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: 24_Childerns_Book
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Children's Book
+  choiceQuery: 'You take it down from the shelf: that book was so freaking good.
+    Willy Wonka was such a rad fella.'
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Browse
+    text: Browse the pages.
     nextChoice: {fileID: 11400000, guid: 29e173becafbb2e4f85a1510feac0ab2, type: 2}
   - status: 2
-    text: Turn
+    text: Turn the cover.
     nextChoice: {fileID: 11400000, guid: 947c886e755735f4d915e75214c6cf7a, type: 2}

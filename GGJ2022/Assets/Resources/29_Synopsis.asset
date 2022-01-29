@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 29_Synopsis
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Synopsis
+  choiceQuery: You begin to read the synopsis.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Stop
+    text: Stop midway.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}
   - status: 1
-    text: Read
+    text: "\rRead it all."
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

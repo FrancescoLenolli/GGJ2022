@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 23_Boxes
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Boxes
+  choiceQuery: You know what you have to do. You have to move out. Easier said than
+    done, but maybe not.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
