@@ -32,7 +32,7 @@ public class UIView_Main : UIView
         {
             int index = i;
             GameObject newButton = Instantiate(buttonChoicePrefab, buttonsContainer);
-            Button button = newButton.GetComponent<Button>();
+            Button button = newButton.GetComponentInChildren<Button>();
             TextMeshProUGUI buttonLabel = newButton.GetComponentInChildren<TextMeshProUGUI>();
 
             UnityAction unityAction = null;
