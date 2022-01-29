@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class UIView_Main : UIView
 {
@@ -15,11 +16,20 @@ public class UIView_Main : UIView
     [SerializeField] private Transform collectiblesContainer = null;
     [SerializeField] private BackgroundGradient backgroundGradient = null;
     [SerializeField] private float fadeTime = 1f;
+
     private CanvasGroup labelQueryGroup;
+    private Action onPause;
+
+    public Action OnPause { get => onPause; set => onPause = value; }
 
     public void Init()
     {
         labelQueryGroup = labelQuery.GetComponent<CanvasGroup>();
+    }
+
+    public void PauseGame()
+    {
+        onPause?.Invoke();
     }
 
     public void SetUp(object value)

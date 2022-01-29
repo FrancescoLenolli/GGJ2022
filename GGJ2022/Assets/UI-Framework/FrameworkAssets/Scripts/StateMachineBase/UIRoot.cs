@@ -13,5 +13,7 @@ namespace UIFramework.StateMachine
         //public UIView UiView => uiView;
 
         public UIView_Main mainView = null;
+        public UIView_Splashpage splashpageView = null;
+        public UIView_Pause pauseView = null;
     }
 }

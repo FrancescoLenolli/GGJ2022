@@ -28,6 +28,7 @@ public class ChoiceSystem : MonoBehaviour
 
         EventManager.StartListening("UpdateTokens", UpdateTokensCount);
         EventManager.StartListening("NextChoice", SelectNewChoice);
+        EventManager.StartListening("RestartGame", RestartGame);
         StartCoroutine(DelayedStartRoutine());
 
     }
@@ -83,14 +84,26 @@ public class ChoiceSystem : MonoBehaviour
 
         if (currentChoice == startingChoice)
         {
-            EventManager.TriggerEvent("ResetView", 0);
-            goodTokenCount = startingTokenCount;
-            badTokenCount = startingTokenCount;
-            choiceCounter = 0;
+            ResetGame();
             return;
         }
 
         choiceCounter++;
+    }
+
+    private void ResetGame()
+    {
+        EventManager.TriggerEvent("ResetView", 0);
+        goodTokenCount = startingTokenCount;
+        badTokenCount = startingTokenCount;
+        choiceCounter = 0;
+    }
+
+    private void RestartGame(object value)
+    {
+        currentChoice = startingChoice;
+        ResetGame();
+        EventManager.TriggerEvent("ChangeChoice", currentChoice);
     }
 
     private IEnumerator DelayedStartRoutine()

@@ -12,9 +12,27 @@ public class UIState_Main : UIState
         base.PrepareState(owner);
         view = owner.Root.mainView;
         view.Init();
+        view.OnPause += PauseGame;
 
         EventManager.StartListening("ChangeChoice", view.SetUp);
         EventManager.StartListening("UpdateBackgroundGradient", view.UpdateBackgroundGradient);
         EventManager.StartListening("ResetView", view.ResetView);
+    }
+
+    public override void ShowState()
+    {
+        base.ShowState();
+        view.ShowView();
+    }
+
+    public override void HideState()
+    {
+        base.HideState();
+        view.HideView();
+    }
+
+    private void PauseGame()
+    {
+        owner.ChangeState(typeof(UIState_Pause));
     }
 }

@@ -7,12 +7,21 @@ namespace UIFramework.StateMachine
     /// </summary>
     public class UIView : MonoBehaviour
     {
+        private CanvasGroup canvasGroup;
+
+        private void Awake()
+        {
+            canvasGroup = GetComponent<CanvasGroup>();    
+        }
+
         /// <summary>
         /// Method called to show view.
         /// </summary>
         public virtual void ShowView()
         {
-            gameObject.SetActive(true);
+            canvasGroup.alpha = 1;
+            canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true;
         }
 
         /// <summary>
@@ -20,7 +29,10 @@ namespace UIFramework.StateMachine
         /// </summary>
         public virtual void HideView()
         {
-            gameObject.SetActive(false);
+
+            canvasGroup.alpha = 0;
+            canvasGroup.interactable = false;
+            canvasGroup.blocksRaycasts = false;
         }
     }
 }
