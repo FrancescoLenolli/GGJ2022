@@ -16,6 +16,6 @@ MonoBehaviour:
   choiceQuery: You pack your books
   collectibleSprite: {fileID: 0}
   sections:
-  - status: 2
+  - status: 0
     text: ...
     nextChoice: {fileID: 11400000, guid: 37ae006b08cf86f4bb8af4be43691270, type: 2}
