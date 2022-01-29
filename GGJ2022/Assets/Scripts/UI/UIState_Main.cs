@@ -11,6 +11,7 @@ public class UIState_Main : UIState
     {
         base.PrepareState(owner);
         view = owner.Root.mainView;
+        view.Init();
 
         EventManager.StartListening("ChangeChoice", view.SetUp);
         EventManager.StartListening("UpdateBackgroundGradient", view.UpdateBackgroundGradient);

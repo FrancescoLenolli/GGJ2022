@@ -362,6 +362,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1269140853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7883724631698441534, guid: 32d3d7c1399371043b3878671f507c29,
+    type: 3}
+  m_PrefabInstance: {fileID: 5875745022026332300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &1269140857
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269140853}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1579774452
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,17 +434,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4373028378717533169, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 500
-      objectReference: {fileID: 0}
     - target: {fileID: 5875745021733845911, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
-      propertyPath: buttonChoicePrefab
-      value: 
-      objectReference: {fileID: 2012941983400845837, guid: e1e161f848d0b5c42ba095f94a70b867,
-        type: 3}
+      propertyPath: fadeTime
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5875745021778612294, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
       propertyPath: m_RootOrder

@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
+using System.Collections.Generic;
 
 public class UIView_Main : UIView
 {
@@ -12,23 +14,61 @@ public class UIView_Main : UIView
     [SerializeField] private GameObject collectiblePrefab = null;
     [SerializeField] private Transform collectiblesContainer = null;
     [SerializeField] private BackgroundGradient backgroundGradient = null;
+    [SerializeField] private float fadeTime = 1f;
+    private CanvasGroup labelQueryGroup;
+
+    public void Init()
+    {
+        labelQueryGroup = labelQuery.GetComponent<CanvasGroup>();
+    }
 
     public void SetUp(object value)
     {
-        foreach(Transform child in buttonsContainer)
+        ResetChoice();
+        Choice newChoice = (Choice)value;
+        CreateChoice(newChoice);
+    }
+
+    public void UpdateBackgroundGradient(object value)
+    {
+        float gradientChangeValue = (float)value;
+        backgroundGradient.ChangeGradient(gradientChangeValue, fadeTime);
+    }
+
+    public void ResetView(object value)
+    {
+        backgroundGradient.ResetGradient();
+        foreach(Transform child in collectiblesContainer)
         {
             Destroy(child.gameObject);
         }
-        Choice newChoice = (Choice)value;
+    }
 
-        labelQuery.text = newChoice.choiceQuery;
-        if(newChoice.collectibleSprite)
+    private void ResetChoice()
+    {
+        labelQueryGroup.alpha = 0;
+        foreach (Transform child in buttonsContainer)
+        {
+            Destroy(child.gameObject);
+        }
+        buttonsContainer.DetachChildren();
+    }
+
+    private void CheckCollectible(Sprite collectibleSprite)
+    {
+        if (collectibleSprite)
         {
             Image collectibleImage = Instantiate(collectiblePrefab, collectiblesContainer).GetComponent<Image>();
-            collectibleImage.sprite = newChoice.collectibleSprite;
+            collectibleImage.sprite = collectibleSprite;
         }
+    }
 
-        for(int i = 0; i < newChoice.sections.Count; ++i)
+    private void CreateChoice(Choice newChoice)
+    {
+        labelQuery.text = newChoice.choiceQuery;
+        CheckCollectible(newChoice.collectibleSprite);
+
+        for (int i = 0; i < newChoice.sections.Count; ++i)
         {
             int index = i;
             GameObject newButton = Instantiate(buttonChoicePrefab, buttonsContainer);
@@ -45,20 +85,40 @@ public class UIView_Main : UIView
             button.onClick.AddListener(unityAction);
             buttonLabel.text = newChoice.sections[i].text;
         }
+
+        StartCoroutine(ShowNewViewRoutine(fadeTime));
     }
 
-    public void UpdateBackgroundGradient(object value)
+    private IEnumerator ShowNewViewRoutine(float fadeTime)
     {
-        float gradientChangeValue = (float)value;
-        backgroundGradient.ChangeGradient(gradientChangeValue);
-    }
-
-    public void ResetView(object value)
-    {
-        backgroundGradient.ResetGradient();
-        foreach(Transform child in collectiblesContainer)
+        List<CanvasGroup> buttonsCanvasGroup = new List<CanvasGroup>();
+        foreach(Transform child in buttonsContainer)
         {
-            Destroy(child.gameObject);
+            buttonsCanvasGroup.Add(child.GetComponent<CanvasGroup>());
         }
+
+        float time = 0f;
+        while (time <= fadeTime)
+        {
+            time += Time.deltaTime;
+            float alphaValue = time / fadeTime;
+
+            foreach(CanvasGroup canvasGroup in buttonsCanvasGroup)
+            {
+                canvasGroup.alpha = alphaValue;
+            }
+            labelQueryGroup.alpha = alphaValue;
+
+            yield return null;
+        }
+
+        labelQueryGroup.alpha = 1;
+        foreach (CanvasGroup canvasGroup in buttonsCanvasGroup)
+        {
+            canvasGroup.alpha = 1;
+            canvasGroup.interactable = true;
+        }
+
+        yield return null;
     }
 }

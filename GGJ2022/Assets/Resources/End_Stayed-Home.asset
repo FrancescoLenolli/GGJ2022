@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalChoice: 0
   choiceQuery: Unlucky
-  collectibleSprite: {fileID: 21300000, guid: b2707ac22abece4428fff3061dd1ac38, type: 3}
+  collectibleSprite: {fileID: 21300000, guid: ff3c3899e4acd964d8cd033067b7c491, type: 3}
   sections:
   - status: 0
     text: Restart.

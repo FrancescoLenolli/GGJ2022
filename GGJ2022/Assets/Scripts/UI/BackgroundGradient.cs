@@ -7,24 +7,42 @@ public class BackgroundGradient : MonoBehaviour
 {
     [SerializeField] private Gradient gradient;
     private Image image;
-    private float time = .5f;
-    private float startingTime;
+    private float gradientValue = .5f;
+    private float targetValue;
+    private float startingValue;
 
     private void Awake()
     {
-        startingTime = time;
+        startingValue = gradientValue;
+        targetValue = gradientValue;
         image = GetComponent<Image>();
     }
 
-    public void ChangeGradient(float timeIncrease)
+    public void ChangeGradient(float timeIncrease, float time)
     {
-        time += timeIncrease;
-        image.color = gradient.Evaluate(time);
+        targetValue += timeIncrease;
+        StartCoroutine(ChangeGradientRoutine(time));
     }
 
     public void ResetGradient()
     {
-        time = startingTime;
-        image.color = gradient.Evaluate(time);
+        gradientValue = startingValue;
+        image.color = gradient.Evaluate(gradientValue);
+    }
+
+    private IEnumerator ChangeGradientRoutine(float totalTime)
+    {
+        float time = 0f;
+        while (time <= totalTime)
+        {
+            time += Time.deltaTime;
+            float newValue = Mathf.Lerp(gradientValue, targetValue, time / totalTime);
+            image.color = gradient.Evaluate(newValue);
+            yield return null;
+        }
+
+        gradientValue = targetValue;
+        image.color = gradient.Evaluate(gradientValue);
+        yield return null;
     }
 }
