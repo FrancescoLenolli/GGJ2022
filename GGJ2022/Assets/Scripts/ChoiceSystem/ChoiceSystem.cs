@@ -74,8 +74,6 @@ public class ChoiceSystem : MonoBehaviour
         }
 
         EventManager.TriggerEvent("UpdateBackgroundGradient", gradientChangeValue);
-        goodTokenCount = Mathf.Clamp(goodTokenCount, 0, startingTokenCount);
-        badTokenCount = Mathf.Clamp(badTokenCount, 0, startingTokenCount);
     }
 
     private void PlayChoice()
