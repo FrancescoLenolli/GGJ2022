@@ -17,11 +17,11 @@ MonoBehaviour:
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Hesitate
+    text: Hesitate.
     nextChoice: {fileID: 11400000}
   - status: 2
     text: Don't move out.
     nextChoice: {fileID: 11400000}
   - status: 0
-    text: Breathe
+    text: Breathe.
     nextChoice: {fileID: 11400000, guid: 55e3fb10cc527df4687fce93400a5844, type: 2}

@@ -13,11 +13,7 @@ MonoBehaviour:
   m_Name: 32_Pack_Clothes
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "Just put one foot in front of the other.\n \nYou are allowed to feel
-    both scared and excited, lost and thriving. \n\nDuality is in everything you
-    do."
+  choiceQuery: "Put one foot in front of the other.\n \nYou are allowed to feel both
+    scared and excited, lost and thriving. \n\nDuality is in everything you do."
   collectibleSprite: {fileID: 0}
-  sections:
-  - status: 0
-    text: .
-    nextChoice: {fileID: 0}
+  sections: []

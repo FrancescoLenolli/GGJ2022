@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 1a_Your_Room
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Ciao Marti cambia qui.
+  choiceQuery: 'Just open that door. '
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
-    text: Get inside, you coward.
+    text: Go inside, you coward.
     nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
   - status: 1
     text: "Maybe you shouldn\u2019t. "
