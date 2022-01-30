@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 22i_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You rearrange them from the oldest to the newest. You won\u2019t
+  choiceQuery: "You rearrange them from the oldest to the newest. \n\nYou won\u2019t
     be needing them in your new home."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: So you came all this way...
+    text: New life, new habits.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

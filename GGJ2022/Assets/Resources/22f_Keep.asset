@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 22f_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Yawn. Boring. How did you manage to read it so many times? Maybe because
-    you were stoned half of them.
+  choiceQuery: "Yawn. Boring. \n\nWhy did you like it so much?\nMaybe because you
+    were stoned half of them."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: Thanks weed...
+    text: Thanks weed.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

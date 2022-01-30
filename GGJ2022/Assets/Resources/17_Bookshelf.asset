@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 17_Bookshelf
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You walk up to your bookcase. All the books you\u2019ve ever owned
-    are on those shelves."
+  choiceQuery: "You walk up to your bookshelf. \n\nAll the books you\u2019ve ever
+    owned are there."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2

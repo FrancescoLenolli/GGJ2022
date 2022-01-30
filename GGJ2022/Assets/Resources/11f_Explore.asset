@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: 11f_Explore
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You let out a sigh. You have yet to set foot in your new home and
-    you already feel defeated. Not off to a good start. You focus on the next step
-    anyways.
+  choiceQuery: "You let out a sigh. \nYou have yet to set foot\nin your new home
+    and you already feel defeated. \n\nNot off to a good start. \n\nYou move on."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: 'Gather all your clothes. '
+    text: 'Gather all the clothes. '
     nextChoice: {fileID: 11400000, guid: 3ae260e2d61c82e40bb336c01e8e859c, type: 2}
   - status: 0
-    text: 'Gather some of your clothes. '
+    text: 'Gather some of the clothes. '
     nextChoice: {fileID: 11400000, guid: d4a21e91ce168c648a75cd02d648600c, type: 2}

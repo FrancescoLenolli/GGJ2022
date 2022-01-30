@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 22b_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You put it back without even looking at it. Studying was never your
-    forte and school wasn\u2019t always fun."
+  choiceQuery: "You put it back without even looking at it. \n\nStudying was never
+    your forte and school wasn\u2019t always fun."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0

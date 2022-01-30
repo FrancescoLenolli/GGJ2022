@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 11h_Explore
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: 'You open the photo album and a wave of nostalgia fills your heart:
+  choiceQuery: "You open the photo album \nand a wave of nostalgia fills your heart:
     mementos of hot summer nights spent between popsicles and playing volleyball
-    until dark. Not a care in the world. You put the album with the clothes.'
+    until dark. \n\nNot a care in the world. \n\nYou put the album with the clothes."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: Go to your desk.
+    text: Go to the desk.
     nextChoice: {fileID: 11400000, guid: 61196ad5ab626fb46ba702ec55a1ffc8, type: 2}
   - status: 0
-    text: Go to your bookshelf.
+    text: Go to the bookshelf.
     nextChoice: {fileID: 11400000, guid: a4fefd97fcba1314688d869d83bc79e7, type: 2}

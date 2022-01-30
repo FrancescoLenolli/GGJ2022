@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: 19_Old_Agendas
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "A stack of old agendas lies in a corner of the desk. You used to
-    write down everything you did, because you were afraid to mix up dates and names.
-    You don\u2019t know why you lost that habit, Maybe you just stopped caring."
+  choiceQuery: "A stack of old agendas lies in a corner of the desk. \nYou used to
+    write down everything you did, \nbecause you were afraid to mix up dates and
+    names. \n\nYou don\u2019t know why you lost that habit, Maybe you just stopped
+    caring."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

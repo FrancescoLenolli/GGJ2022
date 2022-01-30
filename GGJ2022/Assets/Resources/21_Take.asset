@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 21_Take
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You take the newest one from the stack, you open it on today\u2019s
-    page and you take up a pen..."
+  choiceQuery: "You take the newest one from the stack, open it on today\u2019s page
+    \nand pick up a pen..."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

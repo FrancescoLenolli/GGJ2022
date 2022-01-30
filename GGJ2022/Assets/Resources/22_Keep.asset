@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 22_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: They look so carefree. Ugly as heck, but still carefree. Keeping them
-    might remind you that life can still be that way, after all.
+  choiceQuery: "They look so ugly, \nbut you remember how happy you felt while drawing.\n\nKeeping
+    them might remind you that life can still be that way, after all."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: So you came all this way...
+    text: Maybe I should draw again?
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

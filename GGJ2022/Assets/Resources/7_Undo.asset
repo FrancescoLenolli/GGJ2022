@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: 7_Undo
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You take the bed apart. You don\u2019t need it anymore, why bother
-    keeping it neat and tidy? An object fell from the bed and grabbed your attention."
+  choiceQuery: 'You pull the sheets. Why bother keeping it tidy?
+
+
+    An object
+    falls from the bed and grabs your attention.'
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: 'The teddy bear. '
+    text: 'A teddy bear. '
     nextChoice: {fileID: 11400000, guid: 3a6c5e29aeea1a14daac122b188d33f1, type: 2}
   - status: 2
-    text: 'The guitar.
+    text: 'A guitar.
 
 '
     nextChoice: {fileID: 11400000, guid: 4078114a56d98034e9774686f7a3d56e, type: 2}

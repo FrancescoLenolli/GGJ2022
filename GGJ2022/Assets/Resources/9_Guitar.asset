@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 9_Guitar
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Ah yes, your old trusted Fender. You broke your fair share of hearts
-    playing About a girl.
+  choiceQuery: "Ah yes, your old trusted Fender. \n\nYou broke your fair share of
+    hearts playing About a girl."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
     text: Play About a Girl.
     nextChoice: {fileID: 11400000, guid: 9c52edf668081b1408d78bef1d100bb1, type: 2}
   - status: 2
-    text: Fuck Nirvana. You leave it there.
+    text: Fuck Nirvana.
     nextChoice: {fileID: 11400000, guid: 486a0d56182b65a469c1018ae0ed8828, type: 2}

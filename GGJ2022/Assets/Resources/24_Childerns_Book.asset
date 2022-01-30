@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 24_Childerns_Book
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: 'You take it down from the shelf: that book was so freaking good.
-    Willy Wonka was such a rad fella.'
+  choiceQuery: "You take it down from the shelf: that book was so freaking good.
+    \n\nWilly Wonka was such a rad fella."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

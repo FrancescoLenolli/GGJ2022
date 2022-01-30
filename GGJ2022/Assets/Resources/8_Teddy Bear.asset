@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 8_Teddy Bear
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "It\u2019s Theodore, your beloved teddy bear. An eye is missing, several
-    seams are torn, but it\u2019s him."
+  choiceQuery: "It\u2019s Theodore, your beloved teddy bear. \n\nAn eye is missing,
+    several seams are torn, but it\u2019s him."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2

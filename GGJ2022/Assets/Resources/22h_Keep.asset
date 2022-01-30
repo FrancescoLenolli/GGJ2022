@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: 22h_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Fucking bullies.
+  choiceQuery: 'Fucking bullies.
+
+
+    You throw away the book as if it was infected. '
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: Mi favorite hobby.
+    text: Stupid bullies.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

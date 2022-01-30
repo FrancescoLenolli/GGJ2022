@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 22c_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: That day holds a special place in your heart. You rip the page and
-    you put it in the pocket. You may want to frame it somewhere in your new house.
+  choiceQuery: "That day holds a special place in your heart. \n\nYou rip the page
+    and put it in the pocket. You may want to frame it \nsomewhere in your new house."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0

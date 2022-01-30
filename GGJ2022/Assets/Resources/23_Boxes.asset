@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: 23_Boxes
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You know what you have to do. You have to move out. Easier said than
-    done, but maybe not.
+  choiceQuery: "You know what you have to do. \nYou have to move out."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
     text: Hesitate
     nextChoice: {fileID: 11400000}
   - status: 2
-    text: Run away
+    text: Don't move out.
     nextChoice: {fileID: 11400000}
   - status: 0
     text: Breathe

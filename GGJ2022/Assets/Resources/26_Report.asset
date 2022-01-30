@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalChoice: 0
   choiceQuery: "While browsing through the pages, a piece of paper falls to the floor.
-    When you pick it up, you realize it\u2019s an old school report."
+    \n\nIt's an old school report. "
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2

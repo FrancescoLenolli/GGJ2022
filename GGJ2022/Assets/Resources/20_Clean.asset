@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 20_Clean
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: How delusional were you, even for a child. You remember your mother
-    complimenting those drawing, but seeing them now you question wether she was
-    lying.
+  choiceQuery: "How delusional were you, even for a child. \nYou remember your mother
+    complimenting those drawing, \nbut seeing them now you question wether she was
+    lying."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: So you came all this way...
+    text: Maybe I should draw again?
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

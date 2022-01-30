@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: 25_Scifi_Novel
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You take \u201CNeuromancer\u201D by William Gibson. It took you several
-    months to finish it, but it was worth every minute of reading. It\u2019s the
-    book that made you realize what you wanted to do in life."
+  choiceQuery: "That book made you realize what you wanted to do in life. \n\nIt
+    took you several months to finish it, but it was worth every minute of reading."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: 18_Child_Drawings
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Under all the garbage piled on your desk, a couple of old drawings
-    are sticking out. You must have been 8 year old or so. You did not care how bad
-    you were at drawing at that time.
+  choiceQuery: "Under all the garbage piled on your desk, \na couple of old drawings
+    are sticking out. \n\nYou must have been 8 year old or so."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

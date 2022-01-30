@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 22g_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "Bullies. You remember each of them. You also remember that your mom
-    bought a new copy of \u201CCharlie and the Chocolate Factory\u201D to replace
-    the one that the bullies ruined. But I liked this one."
+  choiceQuery: "Bullies. You remember each of their stupid faces. \n\nYou also remember
+    that your mom bought a new copy to replace the ruined one. \n\nBut I liked this
+    one, so I kept it. Scratches and all."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: Bullies are a pain in the ass.
+    text: Stupid bullies.
     nextChoice: {fileID: 11400000, guid: 2e9be319fa66bdb41af2950358cb496c, type: 2}

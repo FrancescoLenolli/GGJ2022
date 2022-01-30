@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 22a_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You remember that report. You tried to hide it from your mother because
-    the grades were really bad. But when mom found out, she did not get mad. Instead
-    she sat with me and we talked about how to fix my grades. To think that now that
-    I\u2019m adult I might not get that kind of support anymore..."
+  choiceQuery: "You remember that report. \n\nYou tried to hide it from your mother
+    because the grades were really bad. \nBut when mom found out, she did not get
+    mad. \nInstead she sat with me and we talked about how to fix my grades. \n\nTo
+    think that now that I\u2019m adult I might not get that kind of support anymore..."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0

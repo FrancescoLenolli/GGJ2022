@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 16_Desk
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Your desk is in the same confusion you left it in. You mom must have
-    thought that it was better that way.
+  choiceQuery: "Your desk is still messy. \n\nYou mom must have thought that it was
+    better that way."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2

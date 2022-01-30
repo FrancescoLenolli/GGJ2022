@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 22d_Keep
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You keep the book.
+  choiceQuery: "Seeing that book sparks the will to read it again. \n\nYou put it
+    with your other stuff."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0

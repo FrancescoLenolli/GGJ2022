@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 28_Autograph
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "William Gibson\u2019s signature reigns the first page of the book.
-    You met him at a coffee shop by chance and you asked him to sign your copy. He
-    did not seem very happy about it, for some reason."
+  choiceQuery: "William Gibson\u2019s signature glows in the first page. \n\nYou
+    met him at a coffee shop by chance and \nyou asked him to sign your copy. \nHe
+    did not seem very eager to do it though. "
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1
-    text: Keep the whole book.
+    text: Keep the book.
     nextChoice: {fileID: 11400000, guid: 290abef8232631e4fa470de2c5e07554, type: 2}
   - status: 2
     text: Rip the page.

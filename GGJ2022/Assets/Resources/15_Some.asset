@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: 15_Some
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You decide you don\u2019t need everything in your wardrobe yet. It
-    might also make a good excuse to scrounge a good meal every once in a while.
-    You just have to decide what to take first."
+  choiceQuery: "You decide not to take everything. \n\nIt might make a good excuse
+    to visit and scrounge a good meal. \n\nYou just have to decide what to take first."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

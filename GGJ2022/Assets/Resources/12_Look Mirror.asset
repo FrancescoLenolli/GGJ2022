@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 12_Look Mirror
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You take quick look at yourself. You don\u2019t even look your age.
-    How do you expect to be taken seriously in the cruel world of adulthood?"
+  choiceQuery: "You stare at you reflection. \nYou don\u2019t even look your age.
+    \n\nHow do you expect to be taken seriously in the cruel world of adulthood?"
   collectibleSprite: {fileID: 0}
   sections:
   - status: 1

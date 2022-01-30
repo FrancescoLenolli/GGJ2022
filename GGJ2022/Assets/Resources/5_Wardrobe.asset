@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: 5_Wardrobe
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Clothes are an essential. You decide to start from there. You open
-    the wardrobe and the mirror on the inside sends a sharp reflection across the
-    room.
+  choiceQuery: "Clothes are an essential. \nYou open the wardrobe and the mirror
+    on the inside \nsends a sharp reflection across the room."
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
