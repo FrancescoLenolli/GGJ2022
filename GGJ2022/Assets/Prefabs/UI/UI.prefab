@@ -237,9 +237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59a42ac5a1461514d9c4a8a694678017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
-  _intensity: 0
-  multiplier: 0.15
+  color: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  _intensity: 1
+  multiplier: 0.2
   onBeginBlur:
     m_PersistentCalls:
       m_Calls: []
@@ -322,9 +322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gradient:
     serializedVersion: 2
-    key0: {r: 0.9607843, g: 0.23921569, b: 0.23921566, a: 1}
+    key0: {r: 0.52156866, g: 0.30588236, b: 0.22745098, a: 1}
     key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0.19339621, g: 1, b: 0.7532994, a: 0}
+    key2: {r: 0.40784314, g: 0.4392157, b: 0.627451, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
@@ -1085,22 +1085,22 @@ PrefabInstance:
     - target: {fileID: 8865180028268416958, guid: b686f0d7a1d393e4889c0b52e63cc547,
         type: 3}
       propertyPath: m_Color.a
-      value: 0.6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8865180028268416958, guid: b686f0d7a1d393e4889c0b52e63cc547,
         type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8865180028268416958, guid: b686f0d7a1d393e4889c0b52e63cc547,
         type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8865180028268416958, guid: b686f0d7a1d393e4889c0b52e63cc547,
         type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8865180028268416958, guid: b686f0d7a1d393e4889c0b52e63cc547,
         type: 3}

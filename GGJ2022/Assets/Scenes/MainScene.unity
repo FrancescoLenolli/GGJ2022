@@ -473,9 +473,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1249055091, guid: 32d3d7c1399371043b3878671f507c29, type: 3}
-      propertyPath: m_Alpha
-      value: 0
+    - target: {fileID: 1155793825, guid: 32d3d7c1399371043b3878671f507c29, type: 3}
+      propertyPath: fadeTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 964579681991913648, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
@@ -536,26 +536,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066288010821019229, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066288010821019229, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066288010821019229, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066288010821019229, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5875745021778612294, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
@@ -616,36 +596,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082968199699787982, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082968199699787982, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: color.b
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082968199699787982, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: color.g
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082968199699787982, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: color.r
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082968199699787982, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: _intensity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082968199699787982, guid: 32d3d7c1399371043b3878671f507c29,
-        type: 3}
-      propertyPath: multiplier
-      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32d3d7c1399371043b3878671f507c29, type: 3}

@@ -24,7 +24,8 @@ public class UIState_Splashpage : UIState
     public override void HideState()
     {
         base.HideState();
-        view.HideView();
+        //view.HideView();
+        view.FadeOut();
     }
 
     private void StartGame()

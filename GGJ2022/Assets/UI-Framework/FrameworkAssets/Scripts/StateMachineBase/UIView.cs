@@ -7,7 +7,7 @@ namespace UIFramework.StateMachine
     /// </summary>
     public class UIView : MonoBehaviour
     {
-        private CanvasGroup canvasGroup;
+        protected CanvasGroup canvasGroup;
 
         private void Awake()
         {

@@ -6,6 +6,8 @@ using System;
 
 public class UIView_Splashpage : UIView
 {
+    [SerializeField] private float fadeTime = 1f;
+
     private Action onPlay;
     private Action onQuit;
 
@@ -20,5 +22,25 @@ public class UIView_Splashpage : UIView
     public void QuitGame()
     {
         onQuit?.Invoke();
+    }
+
+    public void FadeOut()
+    {
+        StartCoroutine(FadeOutRoutine(fadeTime));
+    }
+
+    private IEnumerator FadeOutRoutine(float fadeTime)
+    {
+        float time = fadeTime;
+        while (time >= 0)
+        {
+            time -= Time.deltaTime;
+            canvasGroup.alpha = time / fadeTime;
+            yield return null;
+        }
+
+        canvasGroup.alpha = 0f;
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
     }
 }
