@@ -48,5 +48,7 @@ public class UIView_Splashpage : UIView
         canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
+
+        yield return null;
     }
 }

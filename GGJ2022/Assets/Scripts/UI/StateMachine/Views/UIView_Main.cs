@@ -18,6 +18,8 @@ public class UIView_Main : UIView
     [SerializeField] private CanvasGroup endingBackground = null;
     [SerializeField] private float fadeTime = 1f;
     [SerializeField] private float endingFadeTime = 2f;
+    [SerializeField] private CanvasGroup instructionsPanel = null;
+    [SerializeField] private CanvasGroup mainObjectsPanel = null;
 
     private CanvasGroup labelQueryGroup;
     private Action onPause;
@@ -59,6 +61,11 @@ public class UIView_Main : UIView
     public void Fade(object value)
     {
         StartCoroutine(EndingFadeRoutine(endingFadeTime));
+    }
+
+    public void HideInstructions()
+    {
+        StartCoroutine(HideInstructionsRoutine(1.5f));
     }
 
     private void ResetChoice()
@@ -106,6 +113,30 @@ public class UIView_Main : UIView
         }
 
         StartCoroutine(ShowNewViewRoutine(fadeTime));
+    }
+
+    private IEnumerator HideInstructionsRoutine(float fadeTime)
+    {
+        float time = fadeTime;
+        float inverseTime = 0;
+        while (time >= 0)
+        {
+            time -= Time.deltaTime;
+            inverseTime += Time.deltaTime;
+            instructionsPanel.alpha = time / fadeTime;
+            mainObjectsPanel.alpha = inverseTime / fadeTime;
+            yield return null;
+        }
+
+        instructionsPanel.alpha = 0f;
+        instructionsPanel.interactable = false;
+        instructionsPanel.blocksRaycasts = false;
+
+        mainObjectsPanel.alpha = 1f;
+        mainObjectsPanel.interactable = true;
+        mainObjectsPanel.blocksRaycasts = true;
+
+        yield return null;
     }
 
     private IEnumerator ShowNewViewRoutine(float fadeTime)
