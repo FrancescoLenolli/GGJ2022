@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 31_You_Can
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You can do it.
+  choiceQuery: You can do it
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
-    text: Yes, I can.
-    nextChoice: {fileID: 11400000, guid: a343f55607bc9854e9db335dfb426349, type: 2}
+    text: ...
+    nextChoice: {fileID: 11400000, guid: 113e766a1fb01344492823e443b02c4c, type: 2}

@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: End_Moved-Out
+  m_Name: 33_End
   m_EditorClassIdentifier: 
   finalChoice: 1
-  choiceQuery: 
+  choiceQuery: "Just put one foot in front of the other.\n \nYou are allowed to feel
+    both scared and excited, lost and thriving. \n\nDuality is in everything you
+    do."
   collectibleSprite: {fileID: 0}
   sections: []
