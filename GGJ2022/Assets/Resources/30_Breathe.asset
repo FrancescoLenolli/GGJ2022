@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 30_Breathe
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Breathe
+  choiceQuery: Breathe.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 0
