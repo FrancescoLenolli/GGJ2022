@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5ff98c8b4dfe1842aef411873803264, type: 3}
-  m_Name: 1_Your_Room
+  m_Name: 1a_Your_Room
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: You stand right beside the door of your room. So close to it that
-    you feel your breath condensing on the wood.
+  choiceQuery: Ciao Marti cambia qui.
   collectibleSprite: {fileID: 0}
   sections:
   - status: 2
@@ -22,4 +21,4 @@ MonoBehaviour:
     nextChoice: {fileID: 11400000, guid: cfc3d9674cd8ced438a1f13e7c3b1016, type: 2}
   - status: 1
     text: "Maybe you shouldn\u2019t. "
-    nextChoice: {fileID: 11400000, guid: 511e84879c1276b49bb96600bd30f7ae, type: 2}
+    nextChoice: {fileID: 11400000}
