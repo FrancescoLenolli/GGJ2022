@@ -537,6 +537,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5875745021714417598, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: gradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875745021714417598, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: gradient.key0.g
+      value: 0.4694984
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875745021714417598, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: gradient.key0.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875745021714417598, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: gradient.key2.b
+      value: 0.754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875745021714417598, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: gradient.key2.g
+      value: 0.38549557
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875745021714417598, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: gradient.key2.r
+      value: 0.32395872
+      objectReference: {fileID: 0}
     - target: {fileID: 5875745021778612294, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
       propertyPath: m_RootOrder
