@@ -18,6 +18,7 @@ public class Cutscene : MonoBehaviour
 
     private void TriggerCutscene(object value)
     {
+        videoPlayer.clip = null;
         Choice.ChoiceType choiceType = (Choice.ChoiceType)value;
         VideoClip videoClip = trueEnding;
         switch(choiceType)

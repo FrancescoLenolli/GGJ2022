@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalChoice: 0
   choiceQuery: 
-  collectibleSprite: {fileID: 21300000, guid: ff3c3899e4acd964d8cd033067b7c491, type: 3}
+  collectibleSprite: {fileID: 0}
   sections: []

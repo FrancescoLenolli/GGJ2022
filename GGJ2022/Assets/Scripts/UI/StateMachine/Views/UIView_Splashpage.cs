@@ -7,6 +7,7 @@ using System;
 public class UIView_Splashpage : UIView
 {
     [SerializeField] private float fadeTime = 1f;
+    [SerializeField] private GameObject instructionsPanel = null;
 
     private Action onPlay;
     private Action onQuit;
@@ -27,6 +28,11 @@ public class UIView_Splashpage : UIView
     public void FadeOut()
     {
         StartCoroutine(FadeOutRoutine(fadeTime));
+    }
+
+    public void HideInstructions()
+    {
+        instructionsPanel.SetActive(false);
     }
 
     private IEnumerator FadeOutRoutine(float fadeTime)

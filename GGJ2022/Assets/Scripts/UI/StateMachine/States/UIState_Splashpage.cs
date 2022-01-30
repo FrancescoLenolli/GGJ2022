@@ -26,6 +26,7 @@ public class UIState_Splashpage : UIState
         base.HideState();
         //view.HideView();
         view.FadeOut();
+        view.HideInstructions();
     }
 
     private void StartGame()
