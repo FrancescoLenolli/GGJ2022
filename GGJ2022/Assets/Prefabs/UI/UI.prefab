@@ -273,6 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0098d55290234f3488d1f12d1c373d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeTime: 2
 --- !u!225 &100755332
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -736,13 +737,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3ebf1ac4127c9fc4c80f2152c3cc947a,
+      objectReference: {fileID: 21300000, guid: f77754e98cadc7e4d855d05f062e94d1,
         type: 3}
     - target: {fileID: 6694661230235264687, guid: f2d918f85c08e12408a172688545aacd,
         type: 3}
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
-      objectReference: {fileID: 21300000, guid: f77754e98cadc7e4d855d05f062e94d1,
+      objectReference: {fileID: 21300000, guid: 3ebf1ac4127c9fc4c80f2152c3cc947a,
         type: 3}
     - target: {fileID: 6694661230235264687, guid: f2d918f85c08e12408a172688545aacd,
         type: 3}
