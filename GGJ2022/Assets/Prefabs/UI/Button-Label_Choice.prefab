@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 511049394268077380}
   - component: {fileID: 511049394268077381}
   - component: {fileID: 511049394268077378}
-  - component: {fileID: 7764257984593786368}
+  - component: {fileID: 8038115728925482453}
   m_Layer: 5
   m_Name: Button-Label
   m_TagString: Untagged
@@ -120,8 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 511049394268077381}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &7764257984593786368
+      m_Calls:
+      - m_Target: {fileID: 8038115728925482453}
+        m_MethodName: PlayClip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8038115728925482453
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,40 +141,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 511049394268077376}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: d4cf5fbfe0e1f3d47b24eb1d09a26a0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 8389717702367532692}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 0
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 8389717702367532692}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 0
+  clip: {fileID: 8300000, guid: 4eb6401606ba60444930773ebb65f590, type: 3}
 --- !u!1 &2012941983400845837
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,12 +535,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ffc1a879af2b6a48ba6ffa142bd5620, type: 3}
---- !u!1 &8389717702367532692 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8034751438662797909, guid: 1ffc1a879af2b6a48ba6ffa142bd5620,
-    type: 3}
-  m_PrefabInstance: {fileID: 2012941983489875137}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &585625096197634842 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1427613584171182043, guid: 1ffc1a879af2b6a48ba6ffa142bd5620,
