@@ -713,6 +713,76 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 964579681991913648, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579681991913648, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579681991913648, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579681991913648, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579682889011087, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579682889011087, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579682889011087, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579682889011087, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579683098415016, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579683098415016, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579683098415016, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964579683098415016, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135296875426272210, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_text
+      value: 'A new life is scary, but don''t turn away from it. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135296875426272210, guid: 32d3d7c1399371043b3878671f507c29,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 42.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5875745021778612294, guid: 32d3d7c1399371043b3878671f507c29,
         type: 3}
       propertyPath: m_RootOrder

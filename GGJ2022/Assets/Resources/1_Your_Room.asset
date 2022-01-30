@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_Your_Room
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: "You stand right beside the door of your room, \nso close to it that
+  choiceQuery: "You stand right behind the door of your room, \nso close to it that
     you feel \nyour breath condensing on the wood."
   collectibleSprite: {fileID: 0}
   sections:
