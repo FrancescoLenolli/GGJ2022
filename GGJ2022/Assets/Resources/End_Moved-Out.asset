@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_Moved-Out
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Lucky
+  choiceQuery: 
   collectibleSprite: {fileID: 0}
   sections: []

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: End_Stayed-Home
   m_EditorClassIdentifier: 
   finalChoice: 0
-  choiceQuery: Unlucky
+  choiceQuery: 
   collectibleSprite: {fileID: 21300000, guid: ff3c3899e4acd964d8cd033067b7c491, type: 3}
   sections: []
